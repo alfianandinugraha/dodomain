@@ -1,3 +1,8 @@
 $primary: #e16428 !default;
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import './nav.scss';
+@import './hero.scss';
+
+h1 {
+  font-size: 40px;
+}
