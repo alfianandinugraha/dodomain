@@ -1,0 +1,11 @@
+.navbar {
+  margin-top: 23px;
+}
+
+.nav {
+  &-item {
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+}
