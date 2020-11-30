@@ -47,6 +47,15 @@
 
     &__button {
       border-radius: 0 0.25rem 0.25rem 0;
+      border: 1px solid #272121;
+      background-color: #272121;
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: #272121 !important;
+        border: 1px solid #272121;
+      }
     }
   }
 
