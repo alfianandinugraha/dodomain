@@ -3,6 +3,10 @@ $primary: #e16428 !default;
 @import './nav.scss';
 @import './hero.scss';
 
+* {
+  font-family: 'Epilogue', sans-serif;
+}
+
 h1 {
   font-size: 40px;
 }
