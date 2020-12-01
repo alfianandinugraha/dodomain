@@ -24,7 +24,31 @@
     }
   }
 
+  &__item {
+    margin-bottom: 2rem;
+  }
+
   &__content {
     max-width: 313px;
+
+    h3 {
+      font-weight: 800;
+    }
+  }
+
+  &__container {
+    margin-top: 3rem;
+
+    &::before {
+      content: "";
+      height: 100%;
+      background-color: #e16428;
+      width: 7px;
+      position: absolute;
+      border-radius: 10px;
+      left: 58px;
+      top: -1.2rem;
+      z-index: -1;
+    }
   }
 }
