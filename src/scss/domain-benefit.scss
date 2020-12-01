@@ -30,7 +30,7 @@
   }
 
   &__content {
-    max-width: 313px;
+    max-width: 164px;
 
     h3 {
       font-weight: 800;
@@ -50,6 +50,14 @@
       left: 58px;
       top: -1.2rem;
       z-index: -1;
+    }
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .domain-benefit {
+    &__content {
+      max-width: 350px;
     }
   }
 }
