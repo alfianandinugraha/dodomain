@@ -2,10 +2,22 @@
   margin-top: 555px;
   padding-right: 15px;
   padding-left: 15px;
+  position: relative;
+
+  &__background {
+    background-color: $primary;
+    position: absolute;
+    width: 100%;
+    height: 107%;
+    top: -210px;
+    margin: -15px;
+    z-index: -1;
+  }
 
   &__title {
     text-align: center;
     margin-bottom: 0.75rem;
+    color: white;
   }
 
   &__container {
