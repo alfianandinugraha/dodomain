@@ -1,0 +1,30 @@
+.domain-benefit {
+  margin-top: 10rem;
+
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  &__title {
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__svg {
+    background-color: $primary;
+    width: 94px;
+    height: 94px;
+    border-radius: 94px;
+    display: flex;
+    margin-right: 1rem;
+
+    img {
+      margin: auto;
+    }
+  }
+
+  &__content {
+    max-width: 313px;
+  }
+}
