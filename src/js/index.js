@@ -8,6 +8,21 @@ $('#alert').on('click', () => {
 });
 
 const [hostingPriceListContainer] = $('.hosting-price__list');
+
+function hostingFeatureElement(features) {
+  let element = '';
+
+  features.forEach(feature => {
+    element += `
+      <div class="hosting-price__item__feature__item">
+        <p>${feature}</p>
+      </div>
+    `;
+  });
+
+  return element;
+}
+
 function hostingPriceItemHTML(hosting) {
   const element = document.createElement('div');
   element.classList.add('hosting-price__item');
@@ -20,13 +35,18 @@ function hostingPriceItemHTML(hosting) {
         </div>
         <div class="hosting-price__item__price__discount">
           <span class="hosting-price__item__price__currency">Rp</span>
-          <span class="hosting-price__item__price__nominal">${hosting.discountPrice}</span>
+          <span class="hosting-price__item__price__nominal">
+            ${hosting.discountPrice}
+          </span>
         </div>
         <div>per bulan</div>
       </div>
       <div class="hosting-price__item__button">
-        <button class="btn btn-dark">Pesan</butto>
+        <button class="btn btn-dark">Pesan</button>
       </div>
+    </div>
+    <div class="hosting-price__item__feature">
+      ${hostingFeatureElement(hosting.features)}
     </div>
   `;
 

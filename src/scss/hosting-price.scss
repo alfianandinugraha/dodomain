@@ -20,9 +20,15 @@
     margin-bottom: 2rem;
     max-width: 295px;
     width: 295px;
-    position: relative;
+    border-radius: 10px;
+
+    &__feature {
+      margin-top: 1rem;
+      padding: 2rem;
+    }
 
     &__heading {
+      position: relative;
       height: 242px;
       background-color: $primary;
       color: white;
