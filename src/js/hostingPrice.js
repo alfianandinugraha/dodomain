@@ -31,7 +31,7 @@ const hostingPrice = [
     ],
   },
   {
-    name: 'personal',
+    name: 'organisasi',
     bestSeller: false,
     originalPrice: 98000,
     discountPrice: 70000,
