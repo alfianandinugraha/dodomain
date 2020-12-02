@@ -1,8 +1,8 @@
 .hero {
   position: absolute;
-  top: 50%;
+  top: 122px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 
   &__background {
     width: 100%;
@@ -17,7 +17,7 @@
 
     &--white {
       background-color: white;
-      height: 446px;
+      height: 435px;
       z-index: -1;
     }
   }
@@ -82,5 +82,31 @@
     font-size: 13px;
     line-height: 1.5rem;
     color: white;
+  }
+}
+
+$heroPosition: (
+  394px: ("heroTop": 162px, "bgHeight": 410px),
+  548px: ("heroTop": 208px, "bgHeight": 395px),
+  992px: ("heroTop": 238px, "bgHeight": 360px)
+);
+
+@each $bp, $position-prop in $heroPosition {
+  @each $position-key, $position-value in $position-prop {
+    @media screen and (min-width: $bp) {
+      .hero {
+        @if $position-key == "heroTop" {
+          top: $position-value;
+        }
+
+        @if $position-key == "bgHeight" {
+          &__background {
+            &--white {
+              height: $position-value;
+            }
+          }
+        }
+      }
+    }
   }
 }
