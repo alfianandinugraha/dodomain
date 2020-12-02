@@ -11,10 +11,15 @@
 
   &__list {
     padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &__item {
+    margin: 0 auto;
     margin-bottom: 2rem;
+    max-width: 295px;
+    width: 295px;
 
     &__heading {
       height: 242px;
