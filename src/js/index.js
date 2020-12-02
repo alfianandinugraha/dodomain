@@ -24,6 +24,9 @@ function hostingPriceItemHTML(hosting) {
         </div>
         <div>per bulan</div>
       </div>
+      <div class="hosting-price__item__button">
+        <button class="btn btn-dark">Pesan</butto>
+      </div>
     </div>
   `;
 

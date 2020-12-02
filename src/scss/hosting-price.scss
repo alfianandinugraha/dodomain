@@ -20,6 +20,7 @@
     margin-bottom: 2rem;
     max-width: 295px;
     width: 295px;
+    position: relative;
 
     &__heading {
       height: 242px;
@@ -53,6 +54,17 @@
 
       &__nominal {
         font-size: 40px;
+      }
+    }
+
+    &__button {
+      position: absolute;
+      bottom: -19px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      .btn {
+        width: 189px;
       }
     }
   }
