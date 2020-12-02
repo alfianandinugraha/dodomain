@@ -8,4 +8,47 @@
       line-height: 4rem;
     }
   }
+
+  &__list {
+    padding: 0 15px;
+  }
+
+  &__item {
+    margin-bottom: 2rem;
+
+    &__heading {
+      height: 242px;
+      background-color: $primary;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    &__name {
+      text-align: center;
+      font-size: 25px;
+      text-transform: capitalize;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+    }
+
+    &__price {
+      text-align: center;
+
+      &__discount {
+        display: flex;
+        justify-content: center;
+      }
+
+      &__original {
+        text-decoration: dashed;
+      }
+
+      &__nominal {
+        font-size: 40px;
+      }
+    }
+  }
 }
