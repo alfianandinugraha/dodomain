@@ -1,0 +1,19 @@
+.blog {
+  margin-top: 10rem;
+
+  &__row {
+    margin-bottom: 5rem;
+
+    img {
+      width: 300px;
+    }
+
+    h1 {
+      line-height: 4rem;
+    }
+
+    p {
+      line-height: 2rem;
+    }
+  }
+}
