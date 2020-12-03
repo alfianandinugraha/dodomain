@@ -26,6 +26,16 @@
     &__feature {
       margin-top: 1rem;
       padding: 2rem;
+
+      &__item {
+        display: flex;
+        margin-top: 1rem;
+
+        p {
+          margin: auto 0;
+          margin-left: .75rem;
+        }
+      }
     }
 
     &__heading {

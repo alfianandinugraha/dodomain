@@ -15,6 +15,7 @@ function hostingFeatureElement(features) {
   features.forEach(feature => {
     element += `
       <div class="hosting-price__item__feature__item">
+        <img src="./svg/check.svg"/>
         <p>${feature}</p>
       </div>
     `;
