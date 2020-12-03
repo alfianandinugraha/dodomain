@@ -22,6 +22,14 @@
     height: 130%;
     bottom: 0;
     z-index: -1;
+
+    img {
+      opacity: 0.07;
+      height: 880px;
+      width: 880px;
+      position: absolute;
+      left: -440px;
+    }
   }
 
   &__item {
@@ -83,6 +91,17 @@
               margin-left: 0;
               margin-right: 1rem;
             }
+          }
+        }
+      }
+    }
+  }
+  .hosting-benefit {
+    &__container {
+      &__right {
+        .hosting-benefit {
+          &__item {
+            margin-left: 0;
           }
         }
       }
