@@ -1,0 +1,48 @@
+.footer {
+  padding-top: 10rem;
+  margin-top: 10rem;
+  background-color: $primary;
+  color: white;
+
+  ol {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__nav {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  &__subscribe {
+    text-align: center;
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: center;
+
+    img {
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__credit {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  &__about {
+    margin-top: 2rem;
+  }
+}
