@@ -1,0 +1,24 @@
+.company {
+  margin-top: 10rem;
+
+  &__title {
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  &__list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      filter: grayscale(1);
+      transition: .25s;
+      margin-bottom: 2rem;
+
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+}
