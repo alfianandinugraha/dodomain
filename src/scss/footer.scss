@@ -16,6 +16,8 @@
   &__nav {
     margin-top: 2rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   &__subscribe {
@@ -44,5 +46,28 @@
 
   &__about {
     margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
+    &__subscribe {
+      text-align: left;
+    }
+
+    &__nav {
+      flex-direction: row;
+      margin: 0;
+      text-align: left;
+    }
+
+    &__services {
+      margin: 0 auto;
+    }
+
+    &__about {
+      margin-top: 0;
+      margin-left: auto;
+    }
   }
 }
