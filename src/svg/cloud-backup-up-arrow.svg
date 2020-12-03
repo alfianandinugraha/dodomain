@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="30" viewBox="0 0 45 30">
+  <g id="cloud-backup-up-arrow" transform="translate(0 -102)">
+    <g id="backup" transform="translate(0 102)">
+      <path id="Path_16" data-name="Path 16" d="M36.375,113.25A14.112,14.112,0,0,0,22.5,102a13.716,13.716,0,0,0-12.375,7.5A11.28,11.28,0,0,0,11.25,132H35.625A9.284,9.284,0,0,0,45,122.625,9.544,9.544,0,0,0,36.375,113.25ZM26.25,118.875v7.5h-7.5v-7.5H13.125L22.5,109.5l9.375,9.375Z" transform="translate(0 -102)" fill="#272121"/>
+    </g>
+  </g>
+</svg>
