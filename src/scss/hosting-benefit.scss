@@ -6,7 +6,8 @@
   &__item {
     max-width: 430px;
     display: flex;
-    margin-bottom: 1rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 
     &__icon {
       height: 94px;
@@ -23,6 +24,16 @@
 
       h5 {
         font-weight: 700;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 473px) {
+  .hosting-benefit {
+    &__item {
+      &__content {
+        width: 313px;
       }
     }
   }
