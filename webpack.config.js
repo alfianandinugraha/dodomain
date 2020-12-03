@@ -85,6 +85,10 @@ const config = {
         from: './src/public',
         to: 'public',
       },
+      {
+        from: './src/svg',
+        to: 'svg',
+      },
     ]),
     new MiniCssExtractPlugin({
       filename: IS_DEV ? 'css/[name].css' : 'css/[name].[contenthash].css',
