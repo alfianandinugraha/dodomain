@@ -71,3 +71,28 @@
     }
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    &__container {
+      align-items: flex-start;
+    }
+
+    &__credit {
+      text-align: left;
+    }
+
+    &__contact {
+      align-items: flex-start;
+      flex-wrap: wrap;
+
+      img {
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
