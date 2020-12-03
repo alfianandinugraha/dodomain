@@ -22,3 +22,19 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .company {
+    &__list {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      img {
+        width: 184px;
+      }
+    }
+  }
+}
