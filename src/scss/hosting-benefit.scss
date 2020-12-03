@@ -1,0 +1,29 @@
+.hosting-benefit {
+  &__container {
+    margin-top: 2rem;
+  }
+
+  &__item {
+    max-width: 430px;
+    display: flex;
+    margin-bottom: 1rem;
+
+    &__icon {
+      height: 94px;
+      width: 94px;
+      box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__content {
+      width: 164px;
+      margin-left: 1rem;
+
+      h5 {
+        font-weight: 700;
+      }
+    }
+  }
+}
