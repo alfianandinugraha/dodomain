@@ -28,7 +28,7 @@
       height: 880px;
       width: 880px;
       position: absolute;
-      left: -440px;
+      left: -640px;
     }
   }
 
@@ -74,6 +74,14 @@
 }
 
 @media screen and (min-width: 992px) {
+  .hosting-benefit {
+    &__background {
+      img {
+        left: -440px;
+      }
+    }
+  }
+
   .hosting-benefit {
     &__container {
       &__left {
