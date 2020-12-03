@@ -13,6 +13,7 @@
     padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   &__item {
@@ -26,6 +27,8 @@
     &__feature {
       margin-top: 1rem;
       padding: 2rem;
+      background-color: white;
+      border-radius: 0 0 10px 10px;
 
       &__item {
         display: flex;
