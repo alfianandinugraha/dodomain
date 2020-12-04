@@ -4,6 +4,36 @@
   background-color: $primary;
   color: white;
 
+  .container {
+    position: relative;
+  }
+
+  &__reoffer {
+    position: absolute;
+    height: 174px;
+    top: -250px;
+    width: 100%;
+
+    &__text {
+      background-color: #272121;
+      height: 100%;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+
+      h1 {
+        line-height: 3rem;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 25px;
+      margin: auto;
+      max-width: 270px;
+    }
+  }
+
   ol {
     padding: 0;
 
