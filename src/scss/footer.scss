@@ -56,6 +56,20 @@
     p {
       margin-top: 1rem;
     }
+
+    &__form {
+      display: flex;
+
+      .form-control {
+        border-radius: 0.25rem 0 0 0.25rem;
+      }
+
+      .btn {
+        background-color: #272121;
+        border: 1px solid #272121;
+        border-radius: 0 0.25rem 0.25rem 0;
+      }
+    }
   }
 
   &__contact {
