@@ -10,10 +10,11 @@
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     img {
       filter: grayscale(1);
-      transition: .25s;
+      transition: 0.25s;
       margin-bottom: 2rem;
 
       &:hover {
